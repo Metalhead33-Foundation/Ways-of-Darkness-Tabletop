@@ -6,5 +6,5 @@ World of Artograch RPG system
 ```bash
 git clone https://bitbucket.touhou.fm/scm/wod/wod-tabletop.git
 cd wod-tabletop
-lualatex wodrules.tex
+make
 ```
