@@ -1,5 +1,5 @@
 {
-    "name": "WOD ArchModule",
+    "name": "WOD Ruleset",
     "files": [ { "directory": ".", "filters": ["*.tex"], "recursive": 1} ],
     "build": {
         "build": "make all",
