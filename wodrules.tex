@@ -12,6 +12,7 @@
 \usepackage{float}
 \usepackage{caption}
 \usepackage{hyperref}
+\usepackage{tabularx}
 \usepackage{enumitem}
 \usepackage{newtxtext,newtxmath}
 \usepackage[square,sort,comma,numbers]{natbib}
@@ -34,6 +35,8 @@
 
 \begin{document}
 \maketitle
+\chapter*{Versions}
+\input{latex.make/generated/versions.tex}
 \tableofcontents
 \input{chapters.d.tex/index.tex}
 \end{document}
