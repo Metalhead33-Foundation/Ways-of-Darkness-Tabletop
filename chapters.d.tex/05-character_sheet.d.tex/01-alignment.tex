@@ -8,19 +8,19 @@
   \tkzGrid
           \tkzDrawX[step=0.1]
         \tkzDrawY[step=0.1]
-        \tkzLabelX[orig=false,label options={font=\tiny},step=0.33]
-        \tkzLabelY[orig=false,label options={font=\tiny},step=0.33]
+        \tkzLabelX[orig=false,label,step=0.33]
+        \tkzLabelY[orig=false,label,step=0.33]
         \draw (0,1)  node[above]                 {Lawful}  -- (0,-1) node[below]                 {Chaotic}
           (-1,0) node[xshift=-6pt,rotate=90] {Evil} -- (1,0)  node[xshift=6pt,rotate=-90] {Good};
-    \node at (-0.75,0.75) {Lawful Evil};
-    \node[below] at (-0.75,0) {Neutral Evil};
-    \node at (-0.75,-0.75) {Chaotic Evil};
-    \node at (0.75,0.75) {Lawful Good};
-    \node[below] at (0.75,0) {Neutral Good};
-    \node at (0.75,-0.75) {Chaotic Good};
-    \node at (0,0.75) {Lawful Neutral};
+    \node at (-0.65,0.65) {Lawful Evil};
+    \node[below] at (-0.65,0) {Neutral Evil};
+    \node at (-0.65,-0.65) {Chaotic Evil};
+    \node at (0.65,0.65) {Lawful Good};
+    \node[below] at (0.65,0) {Neutral Good};
+    \node at (0.65,-0.65) {Chaotic Good};
+    \node at (0,0.65) {Lawful Neutral};
     \node[below] at (0,0) {True Neutral};
-    \node at (0,-0.75) {Chaotic Neutral};
+    \node at (0,-0.65) {Chaotic Neutral};
     \end{scope}
   \end{tikzpicture}
   \caption{The alignment coordinate system, or alignment compass.}
