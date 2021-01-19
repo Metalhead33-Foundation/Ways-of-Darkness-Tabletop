@@ -6,3 +6,18 @@ Weapons are tools occupying the hands that are used to inflict damage on hostile
   \item \textbf{Group:} In addition to the previous four potential groups, \textit{(one-handed, two-handed, melee, projectile)}, a weapon can be part of various other groups as well. Think of it as a tag. This is primarily used to keep track of which kind of weapons do the various feats augment. Modules can introduce whole new weapon groups and corresponding feats.
   \item \textbf{Damage:} A list of damages the weapon applies to its targets. Do keep in mind that most weapons simultaneously apply two kinds of damage, albeit at a different ratio.
 \end{enumerate}
+
+A typical weapon template will look like this:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|C{2cm} L{2cm} L{2cm} L{8cm}|}
+\hline
+\large{\textbf{Name}} &
+\large{\textbf{Cost}} &
+\large{\textbf{Handedness}} &
+\large{\textbf{Damage}}
+\\ \hline
+\WeaponRow{Weapon Name}{Weapon Cost}{Weapon Handedness}{Damage calculation}{Weapon type description.}
+\end{tabular}
+\end{table}
