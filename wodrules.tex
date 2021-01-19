@@ -26,6 +26,15 @@
 \definecolor{mGray}{rgb}{0.5,0.5,0.5}
 \definecolor{mPurple}{rgb}{0.3,0,0.3}
 \definecolor{backgroundColour}{rgb}{0.95,0.95,0.92}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}m{#1}}
+\newcommand{\WeaponRow}[5]{
+\large{#1} & \multicolumn{3}{l|}{\begin{tabular}{L{2cm} L{2cm} L{8cm}|}
+{#2} & {#3} & \small{#4} \\
+\multicolumn{3}{L{12cm}}{\footnotesize{#5}} \\
+\end{tabular}} \\ \hline
+}
 \newcommand{\Bonus}[1]{\textcolor{green}{\textbf{+{#1} bonus}}}
 \newcommand{\BonusS}[1]{\textcolor{green}{\textbf{+{#1}}}}
 \newcommand{\Malus}[1]{\textcolor{red}{\textbf{-{#1} malus}}}
@@ -34,6 +43,7 @@
 \newcommand{\MalusPS}[1]{\textcolor{red}{\textbf{+{#1}}}}
 \newcommand{\SoCalled}[1]{\textit{``{#1}''}}
 \newcommand{\Parentheses}[1]{\textit{({#1})}}
+
 \begin{document}
 \maketitle
 \chapter*{Versions}
