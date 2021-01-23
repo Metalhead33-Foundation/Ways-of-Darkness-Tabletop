@@ -1,0 +1,62 @@
+\subsection{Ranged}
+\subsubsection{Bow-type}
+\begin{longtable}{|C{2cm} L{2cm} L{2cm} L{8cm}|}
+\hline
+\large{\textbf{Name}} &
+\large{\textbf{Cost}} &
+\large{\textbf{Handedness}} &
+\large{\textbf{Damage}}
+\\ \hline
+\WeaponRow{Shortbow}{60 m}{Two}{
+Depends on the ammunition, $\frac{AmmoDamage}{10}*Strength$
+}{Shortbows are simple bows usually made for practice, sportsmanship or hunting rather than serious military use. They have a short range, and don't offer any bonuses to the damage caused by the arrows used. While the caused damage depends on the specific type of arrow used, such bows typically fail at penetrating armour.}
+\WeaponRow{Longbow}{120 m}{Two}{
+Depends on the ammunition, $\frac{AmmoDamage*1.5}{10}*Strength$
+}{Longbows are sturdier bows roughly the height of their users. Typically used as weapons of war, they require quite a bit of strength to use, and thus, longbowmen are usually trained from a rather young age. They are famous for their long range, and their extra strength gives them some armour-penetrating ability, especially when used with bodkin arrows.}
+\WeaponRow{Recurve Bow}{160 m}{Two}{
+Depends on the ammunition, $\frac{AmmoDamage*1.5}{10}*Strength$
+}{Bows where the limbs that curve away from the archer when unstrung, typically made from composites of multiple materials, these weapons store and deliver energy more effectively than regular bows, but also require more strength to use. They are effectively shorter bows, but with the effectiveness of a longbow - though, they are also costlier to manufacture.}
+\end{longtable}
+\subsubsection{Crossbow}
+\begin{longtable}{|C{2cm} L{2cm} L{2cm} L{8cm}|}
+\hline
+\large{\textbf{Name}} &
+\large{\textbf{Cost}} &
+\large{\textbf{Handedness}} &
+\large{\textbf{Damage}}
+\\ \hline
+\WeaponRow{Stirrup Crossbow}{100 m}{Two}{
+Depends on the ammunition
+}{The earlier type of crossbow, it has a draw weight low enough to allow crossbowmen to draw the string back with their bare hands, but this also limits the maximum amount of draw weight such a crossbow can have, which in turn puts a limit on the strength of such a crossbow. With mundane ammunition, such crossbows are typically too weak to penetrate plate armour, merely causing dents.}
+\WeaponRow{Goatsfoot Crossbow}{100 m}{Two}{
+Depends on the ammunition, $AmmoDamage*1.5$
+}{A variation of the stirrup crossbow - when draw weight is increased to the point that a crossbowman cannot pull the string back by their bare hands, some utilities are needed to do the job. The first of such utilities was the goat's foot lever, which slightly reduces rate of fire, but greatly increases the maximum draw weight - therefore maximum firepower - a crossbow can potentially have.}
+\WeaponRow{Windlass Crossbow}{150 m}{Two}{
+Depends on the ammunition, $AmmoDamage*2$
+}{A further evolution of the crossbow - at one point, not even the goat's foot could lever could pull back the strings of the increasingly heavier crossbows, requiring a new utility to do the job: the windlass. Greatly increasing draw weight - potential firepower - at the expense of rate of fire, the windlass crossbow is only slighter faster to reload than a muzzle-loaded firearm, but compensates by penetrating platemail.}
+\WeaponRow{Repeating Crossbow}{150 m}{Two}{
+Depends on the ammunition, $\frac{AmmoDamage}{4}$ per shot
+}{Effectively pump-action repeating crossbow, the repeating crossbow has low firepower and short range, but compensates by having quite a high rate of fire, making it effective at crowd-control against larger number of unarmoured opponents.}
+\WeaponRow{Hand Crossbow}{80 m}{One}{
+Depends on the ammunition, $\frac{AmmoDamage}{3}$
+}{A pistol-shaped handheld crossbow small enough to be held in a single hand, it has a low firepower, short range and a rate of fire comparable to that of a stirrup crossbow, but compensates by being a lightweight hanheld weapon that can be held in a single hand.}
+\end{longtable}
+\subsubsection{Other}
+\begin{longtable}{|C{2cm} L{2cm} L{2cm} L{8cm}|}
+\hline
+\large{\textbf{Name}} &
+\large{\textbf{Cost}} &
+\large{\textbf{Handedness}} &
+\large{\textbf{Damage}}
+\\ \hline
+\WeaponRow{Sling}{50 m}{One}{
+Depends on the ammunition
+}{Ancient weapons that are used to hurl projectiles at the enemy - thus causing crushing damage -, short-ranged and inaccurate, they pack quite a punch when they actually hit their intended target.}
+\WeaponRow{Javelin}{80 m}{One}{
+\textit{Piercing:} $\frac{2d8 \pm modifiers}{5}*Strength$\hfill \break
+\textit{Crushing:} $\frac{1d4 \pm modifiers}{5}*Strength$
+}{Shorter spears that are made for throwing. Not much else can be said about them.}
+\WeaponRow{Hand Cannon}{300 m}{Two}{
+Depends on the ammunition
+}{Primitive firearms powered by either gunpowder or a magical substance that fufills a similar function, hand cannons have an abysmally low rate of fire and a pathetically short range - even shorter than that of a shortbow, comparable to the pathetic range of repeating crossbows and hand crossbows - but compensate for all of this by having a devastating amount of firepower, and by making a loud noise that strikes fear into the hearts of uninitiated. At the weapon's effective range, no known armour can offer meaningful resistance to the bullets this weapon fires. The intended target's only hope for salvation is the weapon's infamously comical inaccuracy.}
+\end{longtable}
